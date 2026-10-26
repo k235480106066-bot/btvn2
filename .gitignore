@@ -1,0 +1,22 @@
+# .NET Build Output
+dotnet_app/bin/
+dotnet_app/obj/
+
+# Temporary Crypto Output Files & Keys
+*.bin
+*.enc
+*.key
+*.pem
+*.base64
+!images/*.png
+
+# Python Cache
+__pycache__/
+*.py[cod]
+
+# IDE & System
+.vs/
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
